@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoio</title>
+    <style>
+        body  {background:cyan;}
+        p     {font-family:arial;
+               font-size: 20px;
+               font-weight:none;
+               text-align:left;}
+        h2    {color:blue;
+               padding-left:40px;
+               font-size:40px;}
+        .judul{font-size:25px;
+               font-weight:bold;}
+        
+    </style>
+</head>
+<body>
+    <h1>Yang Di Pelajari</h1>
+    <h2>1.HTML</h2>
+    <div class="judul">A.Membuat Tabel</div>
+<table width=60% border=1>
+    <tr align=center>
+        <th>Nama</th>
+        <th>Kelas</th>
+        <th>Umur</th>
+    </tr>
+    <tr align=center>
+        <td>Zahrul Ibrahimovic</td>
+        <td>XII RPL2</td>
+        <td>17 tahun</td>
+    </tr>
+</table>
+    <div class="judul">B.Colspan dan Rowspan</div>
+<table width=50% border=2>
+    <tr align=center>
+        <td colspan=2 bgcolor=red>1,2</td>
+        <td>3</td>
+    </tr>
+    <tr align=center>
+        <td>1</td>
+        <td rowspan=2 bgcolor=blue>2</td>
+        <td>3</td>
+    </tr>
+    <tr align=center>
+        <td>1</td>
+        <td>3</td>
+    </tr>
+</table>
+    <div class="judul">C.Memasukkan gambar <br></div>
+    <p>(img src="nama file gambar.jpg" width=.. border=..)<br></p>
+    <div class="judul">D.Menambah background <br></div>
+    <p>ketikkan bgcolor didalam style <br>
+    body {background:warna};</p>
+<h2>2.CSS</h2>
+    <div class="judul">A.Macam macam style CSS</div>
+<ul>
+    <li>Mengedit munggunakan selector style - /style di head(embed style)</li>
+    <li>Mengedit didalam kurung selector(inine style)</li>    
+    <li>Mengedit dengan link terpisah (link rel="...." href="nama file.css")di head (external style)</li>
+</ul>
+    <div class="judul">B.Class dan id</div> 
+<p>1.Menulis class di dalam selector berarti menulis titik(.) beserta nama <br>
+contoh(p class="satu")(/p) berarti menuliskan .satu di style head</p>
+<p>2.Menulis id di dalam selector berarti menulis # beserta nama <br>
+    contoh(p id="dua")(/p) berarti menuliskan #dua di style head</p>
+    <div class="judul">C.Div dan Span</div>
+<p>Agar lebih mudah menggunakan class dan id <br>
+contoh (div class="satu")(p)(span)belajar(/span) div dan span(/p) <br>
+-jika ingin mengedit (p) ketik .satu p di style head <br>
+-jika ingin mengedit belajar ketik .satu span di style head </p>
+    <div class="judul">D.Padding</div> 
+<p>-jarak antara tulisan dengan atas(padding-top:...px;)<br>
+-jarak antara tulisan dengan bawah(padding-bottom:..px;)<br>
+-jarak antara tulisan dengan kanan(padding-right:..px;)<br>
+-jarak antara tulisan dengan kiri(padding-right:..px;)</p><br>
+    <h2>3.Javascript</h2>
+    <div class="judul">A.window.arlet</div>
+    <div class="judul">B.prompt</div>
+<p>membuat browser menanyakan user<br>
+contoh var a=(prompt("Ketikan hai"));</p>
+    <div class="judul">C.Var</div>
+<P>Contoh var a=(prompt("Ketikan hai")); dan var b=("Zahrul");<br>
+document.write(a+b); maka akan menghasilkan apa yang diketik di prompt var a + Zahrul <br>
+menuliskan didalam script javascript
+dan selain var diberi kurung titik atas</P>
+<script>
+window.alert("halooooo");
+var b=("Zahrul");
+var a=(prompt("Ketikan hai"));
+document.write("<font size=20 color=red>"+a+" "+b+"</font>");
+</script>
+<div class="judul">D.Fungction</div>
+<div class="judul">E.If Else </div>
+</body>
+</html>
